@@ -85,7 +85,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="container" data-testid="card-1">
         <h1>Listado de Pokemon</h1>
         <div className="search-container">
           <input

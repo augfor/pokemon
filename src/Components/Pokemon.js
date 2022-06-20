@@ -8,6 +8,7 @@ const Pokemon = ({ pokemonInfo }) => {
           <img
             src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${pokemonInfo.id}.svg`}
             alt={pokemonInfo.name}
+            data-testid="card-1"
           />
           <h3># {pokemonInfo.id}</h3>
           <h2>{pokemonInfo.name.replace(/^./, pokemonInfo.name[0].toUpperCase())}</h2>

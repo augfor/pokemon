@@ -58,6 +58,7 @@ body {
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .card img {
